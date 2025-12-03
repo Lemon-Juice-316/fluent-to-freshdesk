@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/freshdesk.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/freshdesk",
+      "dest": "/api/freshdesk.js"
+    }
+  ]
+}
